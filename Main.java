@@ -9,7 +9,7 @@ public class Main {
         row= sc.nextInt();
         col= sc.nextInt();
         treeNumber= sc.nextInt();
-        if((row<=0 && col<=0) || treeNumber<=0){
+        if(row<=0 || col<=0 || treeNumber<=0){
             System.out.println("ERROR: There is some error in input");
         }
         else{
